@@ -1,0 +1,6 @@
+spec:
+  destination:
+    server: https://kubernetes.default.svc  # Assuming ArgoCD is running on the same cluster
+  source:
+    repoURL: https://github.com/mohitsharma44/angi-test-charts
+    targetRevision: main
